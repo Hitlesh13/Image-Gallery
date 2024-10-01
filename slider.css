@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ee6d6d;
+}
+
+.slider {
+    width: 1200px; 
+    height: 500px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: scale-down; 
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #f3dcdc;
+    color: rgb(19, 17, 17);
+    font-weight: bolder;
+    border:solid darkblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.prev, .next {
+    position: absolute;
+}
+
+
+.prev {
+    left: 300px;  
+}
+
+.next {
+    right: 300px; 
+}
